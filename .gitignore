@@ -1,0 +1,13 @@
+#QT/VC build files
+*Debug/
+*Release/
+*.user
+*-installer.exe
+*.vcxproj*
+*.ipch
+*.sln*
+*_upgradereport_file*
+*.sdf
+*.suo
+*upgradelog.xml
+*old-*

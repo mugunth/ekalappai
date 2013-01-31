@@ -43,6 +43,10 @@
 ### Issue 71 [http://code.google.com/p/ekalappai/issues/detail?id=71]
 ### K. Sethu 2011.03.07
 ### ************************************
+### Bugs discussed in comment added on 2013.01.12 to issue 71 [http://code.google.com/p/ekalappai/issues/detail?id=71] fixed now
+### Added 12 lines which were missed earlier while fixing bug for issue 71. Added lines are for ஹ, ஸ, ஷ
+### K. Sethu 2013.01.12
+### ************************************
 ### Begin Table data.
 BEGIN_TABLE
 
@@ -1322,6 +1326,21 @@ whp றரி
 whpp றரீ
 whP றரீ
 
+`h; ஹர்
+`hp ஹரி
+`hpp ஹரீ
+`hP ஹரீ
+
+\h; ஷர்
+\hp ஷரி
+\hpp ஷரீ
+\hP ஷரீ
+
+]h; ஸர்
+]hp ஸரி
+]hpp ஸரீ
+]hP ஸரீ
+
 Fh; குர்
 Fhp குரி
 Fhpp குரீ
@@ -1401,20 +1420,5 @@ Wh; றுர்
 Whp றுரி
 Whpp றுரீ
 WhP றுரீ
-
-`h; ஹர்
-`hp ஹரி
-`hpp ஹரீ
-`hP ஹரீ
-
-\h; ஷர்
-\hp ஷரி
-\hpp ஷரீ
-\hP ஷரீ
-
-]h; ஸர்
-]hp ஸரி
-]hpp ஸரீ
-]hP ஸரீ
 
 END_TABLE
